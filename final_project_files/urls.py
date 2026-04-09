@@ -1,7 +1,7 @@
 from django.urls import path
 from . import views
 
-app_name = 'final_project_app'
+app_name = 'final_project_app',
 
 urlpatterns = [
     path('submit/<int:course_id>/', views.submit, name='submit'),
